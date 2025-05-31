@@ -1,0 +1,19 @@
+# Core Django & DRF
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+
+# Authentication
+django-rest-knox>=4.2.0
+
+# Database driver (optional if using SQLite)
+psycopg2-binary>=2.9.6
+
+# Testing
+pytest>=7.4.0
+pytest-django>=4.5.2
+
+# For handling CORS (optional if using frontend)
+django-cors-headers>=4.0.0
+
+# Image handling (if using profile picture uploads)
+Pillow>=10.0.0
